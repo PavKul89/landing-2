@@ -1,0 +1,529 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&family=Montserrat:wght@400;700;900&family=Raleway&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 805px;
+    background-color: rgb(239,239,241);
+
+}
+
+.header-logo {
+    border: 5px solid black;
+    margin-left:130px;
+    height: 40px;
+    width: 102px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 5px;
+    position: relative;
+    top: 64px;
+    left: 150px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 12px;
+
+}
+
+.litter {
+    font-size: 21px;
+    color: #77efe5;
+}
+
+.litter-logo {
+    background-color:#77efe5 ;
+
+}
+
+.header-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header-title {
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-left: 224px;
+    margin-top: 10%;
+    color: rgb(80,80,80);
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 10px 5px rgb(204,205,207);
+    font-weight: bolder;
+}
+
+.header-btn {
+    margin-top: 5%;
+   
+}
+
+.header-navigation-btn {
+    width: 225px;
+    height: 40px;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-us {
+    height: 780px;
+    background-color: rgb(248,250,250);
+
+}
+
+.about-us-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: 130px;
+
+}
+
+.about-us-text {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
+
+}
+
+.about-us-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-us-images {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+.about-us-images-text {
+    margin-left: 10%;
+    font-family: 'Merriweather', serif;
+}
+
+.about-us-images-text > div > h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+
+}
+
+div > h2 {
+    margin-top: 50px;
+}
+
+.text-litter {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.featured-works {
+    height: 1000px;
+    background-color: rgb(199,199,199);
+}
+
+.featured-works-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.featured-works-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: 130px;
+
+}
+
+.featured-works-text {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Merriweather', serif;
+    margin-top: 16px;
+   
+}
+
+.featured-works-images {
+    display: flex;
+    margin-left: 355px;
+    margin-top: 122px;
+
+}
+
+.featured-works-images > img {
+margin-right: 40px;
+}
+
+.featured-works-images-ice-creame {
+    margin-left: 15px;
+}
+
+.featured-works-images-bottles {
+    margin-left: 15px;
+}
+
+.featured-works-images-two {
+    display: flex;
+    margin-left: 355px;
+    margin-top: 10px;
+
+}
+
+.featured-works {
+    height: 1130px;
+    background-color: rgb(255,255,255);
+    
+}
+
+.our-services {
+    background-color:rgb(249,251,251);
+    height: auto;
+}
+
+.our-services-cards {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 200px;
+
+}
+
+
+.our-services-cards-pictures {
+    background-image: url('img/img-17.jpg');
+    height: 370px;
+    width: 650px;
+    background-size: cover;
+    margin-left: 150px;
+}
+
+.our-services-wrapper-pictures {
+    background-color: rgb(112,245,234);
+    height: 100%;
+}
+
+.services-fox-pictures {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(246,246,246);
+    font-family: 'Merriweather';
+    font-weight: bolder;
+    margin-top: 61px;
+}
+
+.services-fox-pictures-none {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.our-services-cards-eleven {
+    background-image: url('img/img-18.jpg');
+    height: 370px;
+    width: 470px;
+    background-size: cover;
+    margin-left: 16px;
+}
+
+.our-services-wrapper-eleven {
+    background-color: rgba(82, 82, 81, 0.511);
+    height: 100%;
+}
+
+.services-eleven {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+
+}
+
+.services-eleven-first {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(246,246,246);
+    font-family: 'Merriweather';
+    font-weight: bolder;
+    margin-top: 61px;
+}
+
+.services-eleven-second {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.our-services-cards-first {
+background-image: url('img/img-19.jpg');
+height: 370px;
+width: 650px;
+background-size: cover;
+margin-left: 150px;
+} 
+
+.our-services-wrapper-first {
+    background-color: rgba(82, 82, 81, 0.511);
+    height: 100%;
+}
+
+.our-services-cards-two {
+    background-image: url('img/img-20.jpg');
+    height: 370px;
+    width: 472px;
+    background-size: cover;
+}
+
+.our-services-wrapper-two {
+    background-color: rgba(82, 82, 81, 0.511);
+    height: 100%;
+    margin-left: 17px;
+}
+
+.our-services-ticket {
+    display: flex;
+    margin-top: 14px;
+    margin-left: 350px;
+}
+
+.our-services-ticket-first {
+    background-image: url('img/img-21.jpg');
+    height: 370px;
+    width: 470px;
+    background-size: cover;
+}
+
+.our-services-ticket-two {
+    background-image: url('img/img-22.jpg');
+    background-size: cover;
+    height: 370px;
+    width: 632px;
+    margin-left: 20px;
+}
+
+.our-services-wrapper-three {
+    background-color: rgba(82, 82, 81, 0.511);
+    height: 100%;
+}
+
+.services-deep {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+
+}
+
+.services-deep-first {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(246,246,246);
+    font-family: 'Merriweather';
+    margin-top: 130px;
+    font-weight: bolder;
+
+}
+
+.services-deep-second {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+
+}
+
+.services-deep-third {
+    margin-top: 52px;
+
+}
+
+.services-deep-third-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(229,229,229);
+}
+
+.services-sky {
+display: flex;
+flex-direction: column;
+margin-left: 70px;
+}
+
+.services-sky-first {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(246,246,246);
+    font-family: 'Merriweather';
+    font-weight: bolder;
+    margin-top: 130px;
+}
+
+.services-sky-second {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.services-fire {  
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+
+}
+
+.services-fire-first {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(246,246,246);
+    font-family: 'Merriweather';
+    font-weight: bolder;
+    margin-top: 130px;
+}
+
+.services-fire-second {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.services-fox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.services-fox-first {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(246,246,246);
+    font-family: 'Merriweather';
+    font-weight: bolder;
+    margin-top: 130px;
+}
+
+.services-fox-second {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.our-services-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.our-services-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: 130px;
+
+}
+
+.our-services-text {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    margin-top: 16px;
+   
+}
+
+.input {
+    height: 455px;
+    background-color:rgb(246,246,246);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list {
+    padding: 32px;
+    background-color: rgb(67,85,96);
+    width: 612px;
+    margin-top: 50px;
+    margin-left: 35%;
+
+}
+
+.form-item {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(67,85,96);
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: 'Raleway', sans-serif;
+
+    
+}
+
+
+.list-fiveth {
+    background-color: rgb(112,245,234);
+    text-transform: uppercase;
+    height: 55px;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+
+}
+
+footer {
+    height:312px ;
+    background-color: rgb(95,95,95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(159,161,162);
+    margin-top: 90px;
+
+}
+
+.footer-link {
+
+}
+
+.footer-link > a > svg {
+    margin-top: 18px;
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+
+
+}
+
+.footer-low {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 45px;
+    color: rgb(114,117,119);
+}
+
+.litera-link { 
+    stroke: rgb(110,238,228);
+
+}
